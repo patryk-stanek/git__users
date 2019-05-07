@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "babel script.js --watch --out-file build.js"
+    "build": "babel script.js --watch --out-file build.js",
+    "watch": "http-server"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,8 @@
     "babel-cli": "^6.26.0",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-react": "^6.24.1"
+  },
+  "devDependencies": {
+    "http-server": "^0.11.1"
   }
 }
